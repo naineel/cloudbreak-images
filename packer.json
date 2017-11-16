@@ -174,15 +174,7 @@
       "ssh_pty": true,
       "source_ami": "ami-b22961c1",
       "ami_regions": [
-        "ap-southeast-1",
-        "ap-southeast-2",
-        "eu-central-1",
-        "ap-northeast-1",
-        "ap-northeast-2",
-        "us-east-1",
-        "sa-east-1",
-        "us-west-1",
-        "us-west-2"
+        "us-east-1"
       ],
       "instance_type": "{{ user `aws_instance_type` }}",
       "ssh_username": "ec2-user",
